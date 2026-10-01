@@ -1,0 +1,29 @@
+# Environment variables
+.env
+
+# WhatsApp multi-device authentication session data (CRITICAL SECURITY)
+whatsapp-sessions/
+.whatsapp_sessions/
+
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# SQLite Database files
+dev.db
+dev.db-journal
+prisma/*.db
+prisma/*.db-journal
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS metadata
+.DS_Store
+Thumbs.db
